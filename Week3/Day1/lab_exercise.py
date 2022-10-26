@@ -1,9 +1,13 @@
 #1. Import the NUMPY package under the name np and PANDAS as pd.
+import numpy as np
+import pandas as pd
 #2. Generate a 2x3x5 3-dimensional array with random values. Assign the array to variable "a"
-
- 
+a = np.random.rand(2,3,5)
+print(a)
 #3. Create a 5x2x3 3-dimensional array with all values equaling 1.
+b = np.array([[[1, 1], [1, 1]], [[1, 1], [1, 1]]])
 
+print(b)
  
 #4. Do a and b have the same size? How do you prove that in Python code?
 
