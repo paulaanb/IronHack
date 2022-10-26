@@ -5,7 +5,9 @@ import pandas as pd
 a = np.random.rand(2,3,5)
 print(a)
 #3. Create a 5x2x3 3-dimensional array with all values equaling 1.
-b = np.array([[[1, 1], [1, 1]], [[1, 1], [1, 1]]])
+b = np.array([[[1, 1],
+               [1, 1]],
+              [[1, 1], [1, 1]]])
 
 print(b)
  
